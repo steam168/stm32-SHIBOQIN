@@ -1,0 +1,26 @@
+# ---- Keil MDK 构建产物（不进仓库）----
+*.o
+*.d
+*.crf
+*.lst
+*.map
+*.axf
+*.hex
+*.bin
+*.htm
+*.dep
+*.iex
+*.sct
+*.bak
+*.uvguix
+*.uvguix.*
+
+# ---- 构建输出目录 ----
+Objects/
+Listings/
+DebugConfig/
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+Thumbs.db
+desktop.ini
